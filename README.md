@@ -27,3 +27,12 @@ Permits the user request for permission access the operating system's (Camera, G
         NSLog(@"Permission Denied.");
     }];
 ```
+
+# Location Permission
+```
+    [Utility getPermitionOfAccess_Location:^(NSString *strSuccess) {
+        NSLog(@"Permission Access.");
+    } failureBlock:^(NSString *strFailure) {
+        NSLog(@"Permission Denied.");
+    }];
+```
