@@ -1,5 +1,5 @@
 # PermissionCheck
-Permits the user request for permission access the operating system's (Camera, Gallery and Microphone), with the objective-c block support.
+Permits the user request for permission access the operating system's (Camera, Gallery, Microphone and Location), with the objective-c block support.
 
 # Gallery Permission
 ```
