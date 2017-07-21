@@ -115,4 +115,39 @@
     }
 }
 
++ (void)getPermitionOfAccess_Location:(void (^)(NSString *))successBlock failureBlock:(void (^)(NSString *))failureBlock
+{
+    CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
+    NSString *_status = @"";
+    
+    if (status==kCLAuthorizationStatusNotDetermined) {
+        _status = @"Not Determined";
+        failureBlock(@"NO");
+
+        [[[CLLocationManager alloc] init] requestAlwaysAuthorization];
+    }
+    else if (status==kCLAuthorizationStatusDenied) {
+        _status = @"Denied";
+        failureBlock(@"NO");
+
+    }
+    else if (status==kCLAuthorizationStatusRestricted) {
+        _status = @"Restricted";
+        failureBlock(@"NO");
+
+    }
+    else if (status==kCLAuthorizationStatusAuthorizedAlways) {
+        _status = @"Always Allowed";
+        successBlock(@"YES");
+
+    }
+    else if (status==kCLAuthorizationStatusAuthorizedWhenInUse) {
+        _status = @"When In Use Allowed";
+        successBlock(@"YES");
+    }
+    else if (status == kCLAuthorizationStatusNotDetermined) {
+        [[[CLLocationManager alloc] init] requestAlwaysAuthorization];
+    }
+
+}
 @end

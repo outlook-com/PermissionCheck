@@ -19,4 +19,6 @@
 
 + (void)getPermitionOfAccess_Audio:(void (^)(NSString *strSuccess))successBlock failureBlock:(void (^)(NSString *strFailure))failureBlock;
 
++ (void)getPermitionOfAccess_Location:(void (^)(NSString *strSuccess))successBlock failureBlock:(void (^)(NSString *strFailure))failureBlock;
+
 @end

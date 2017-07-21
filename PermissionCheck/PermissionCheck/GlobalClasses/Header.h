@@ -17,7 +17,9 @@
 #define MESS_EnableAccess_Gallery_Title                     [NSString stringWithFormat:@"Allow '%@' access to your gallery",APP_NAME]
 #define MESS_EnableAccess_Gallery                           [NSString stringWithFormat:@"'%@' does not have access to your gallery.\nYou can enable access to change the Privacy Settings for tap setting and enable access to your gallery.",APP_NAME]
 
-#define MESS_EnableAccess_MICROPHONE_Title                  [NSString stringWithFormat:@"Allow '%@' access to your gallery",APP_NAME]
-#define MESS_EnableAccess_MICROPHONE                        [NSString stringWithFormat:@"'%@' does not have access to your gallery.\nYou can enable access to change the Privacy Settings for tap setting and enable access to your microphone.",APP_NAME]
+#define MESS_EnableAccess_MICROPHONE_Title                  [NSString stringWithFormat:@"Allow '%@' access to your microphone",APP_NAME]
+#define MESS_EnableAccess_MICROPHONE                        [NSString stringWithFormat:@"'%@' does not have access to your microphone.\nYou can enable access to change the Privacy Settings for tap setting and enable access to your microphone.",APP_NAME]
 
+#define MESS_EnableAccess_LOCATION_Title                    [NSString stringWithFormat:@"Allow '%@' access to your location",APP_NAME]
+#define MESS_EnableAccess_LOCATION                          [NSString stringWithFormat:@"'%@' does not have access to your location.\nYou can enable access to change the Privacy Settings for tap setting and enable access to your location.",APP_NAME]
 #endif /* Header_h */

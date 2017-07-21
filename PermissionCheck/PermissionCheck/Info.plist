@@ -22,6 +22,12 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>This application requires camera services to work</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This application requires location services to work</string>
+	<key>NSLocationUsageDescription</key>
+	<string>This application requires location services to work</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This application requires location services to work</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This application requires microphone services to work</string>
 	<key>NSPhotoLibraryUsageDescription</key>

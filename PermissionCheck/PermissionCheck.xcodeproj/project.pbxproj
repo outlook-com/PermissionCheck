@@ -546,6 +546,7 @@
 				9F4C61DF1F19F84300B4EF3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F4C61E01F19F84300B4EF3E /* Build configuration list for PBXNativeTarget "PermissionCheckTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +555,7 @@
 				9F4C61E21F19F84300B4EF3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F4C61E31F19F84300B4EF3E /* Build configuration list for PBXNativeTarget "PermissionCheckUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +564,7 @@
 				9F4C61E51F19F84300B4EF3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
